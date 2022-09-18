@@ -7,7 +7,7 @@ difficult = input('\nChoose a difficulty. Type "easy" or "hard": ')
 
 print(logo)
 
-lives= 0
+lives = 0
 
 if difficult == 'easy':
     lives = 10
