@@ -16,8 +16,8 @@ while is_on:
         break
 
     if FLAVOR_ORDER == 'report':
-        print(coffee_maker.report())
-        print(money_machine.report())
+        coffee_maker.report()
+        money_machine.report()
         continue
     
     itemInfo = menu.find_drink(FLAVOR_ORDER)
